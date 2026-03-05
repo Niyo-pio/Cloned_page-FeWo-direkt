@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
@@ -10,28 +11,49 @@
         <nav>
             <div class="logo">FeWo-direkt</div>
         <div class="nav-bar">
-            <a href="#">App offnem</a>
-            <a href="#">Reiseplaner</a>
-            <a href="#">U terkunft registrieren</a>
-            <a href="#">Hife</a>
-            <a href="#">Meine Reisen</a>
-            <a href="#">Anmelden</a>
+            <a href="#" class="round-border">App offnem</a>
+            <a href="#" class="blk">Reiseplaner</a>
+            <a href="#" class="blk">U terkunft registrieren</a>
+            <a href="#" class="blk">Hife</a>
+            <a href="#" class="blk">Meine Reisen</a>
+            <a href="#" class="blk">Anmelden</a>
         </div>
         </nav>
         <div class="pic">
-            <h1>Die ganze Unterkunft nur fur dich</h1>
+
+            <h1 class="h1-head">Die ganze Unterkunft nur fur dich</h1>
             <div class="search-bar">
-                <button class="big_but">Wo soll's hing...</button>
-                 <button class="big_but">Sa., 14. Marz - S...</button>
-                  <button class="big_but">2 Gaste</button>
-                  <button> Suchen</button>
+                <input type="text" placeholder="Wo soll's hing..." class="big_but"></input>
+                 <div class="big_but btn-flex">
+                    <div><img src="date.svg" alt="" class="daten"></div>
+                    <div>
+                        <p class="small_p">Daten</p>
+                        <p class="big_p">Sa., 14. Marz - S...</p>
+                    </div>
+                </div>
+                <div class="big_but btn-flex">
+                    <div><img src="tete.svg" alt="" class="daten"></div>
+                    <div>
+                        <p class="small_p">Gast</p>
+                        <p class="big_p">2 Gaste</p>
+                    </div>
+                </div>
+                  
+                  <button class="btn"> <p>Suchen</p></button>
+                  
             </div>
 
         </div>
 
     </head>
     <main class="main">
-        
+        <div class="pop">
+            <img src="message.svg" alt="" class="hand">
+            <p>Melde dich an, um dem Gastgeber eine Nachricht zu schicken und mehr Details zu einer Unterkunft zu erhalten.</p>
+            <button class="anmeldon-btn">Anmeldon</button>
+        </div>
+
+
     </main>
 </body>
 </html>
